@@ -11,14 +11,14 @@
     right: 0;
     background-color: white;
     display: block;
-    height: 73px;
+    height: 40px;
     border-bottom: 2px solid #FFBD59;
-    padding-top: 32px;
+    padding-top: 10px;
     
     
 }
 .conteudo-cabecalho img{
-    height: 3rem;
+    height: 2rem;
 }
 
 .conteudo-cabecalho{
@@ -31,38 +31,48 @@
 .menu-principal{
     list-style: none;
     display: flex;
-    margin: 0;
     padding: 0;
     width: 700px;
+    font-size: 20px;
+    cursor:default;
 }
 
 .menu-item{
-    margin: 0 50px;
+    margin: 0 30px;
     /* position: relative; */
 }
 
 .menu-subitem{
     list-style: none;
-    display: none;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 5px;
     background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    margin: 2px auto;
+    margin: 0 auto;
     padding: 15px;
-    width: 100rem;
+    width: 15rem;
     position: absolute;
-    left: 0;
-    top: 100%;
+    top: 80%;
+    visibility: hidden;
+    font-size: 20px;
 }
 
 
-.menu-item:hover .menu-subitem {display: inline-block;}
+.menu-item:hover .menu-subitem {
+    visibility: visible;
+    background-color: #FFBD59;
+    color: white;
+    transition-duration:1s;
+    
+}
 
 .item-link{
     text-decoration: none;
-    color:yellow;
+    color:white;
 
 }
+
 
 
 #abra-sua-conta{
@@ -73,9 +83,18 @@
     color:white;
     background-color: orange;
 }
+
+#abra-sua-conta:hover{
+    border: 2px solid #FFBD59;
+    background-color: white;
+    color: orange;
+    cursor: pointer;
+}
+
 #botao-login{
     border: 0;
     background-color: white;
     color: orange;
+    cursor: pointer;
 }
 
