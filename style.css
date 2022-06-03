@@ -2,3 +2,42 @@
     margin: 0;
     padding: 0;
 }
+
+header{
+    display: flex;
+    height: 90px;
+    border-bottom: 2px solid #FFBD59;
+   
+    align-items: center;
+
+}
+header img{
+    height: 70%;
+}
+
+nav{
+    width: 400px;
+    display: flex;
+    justify-content: center
+    
+}
+
+.menu {
+    list-style: none;
+}
+
+
+#abra-sua-conta{
+    border: 0;
+    border-radius: 20px;
+    height: 2rem;
+    width: 150px;
+    color:white;
+    background-color: orange;
+}
+#botao-login{
+    border: 0;
+    background-color: white;
+    color: orange;
+}
+

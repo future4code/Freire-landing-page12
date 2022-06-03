@@ -1,2 +1,2 @@
 # landing-page-template
-fizemos um layout base para o site mas ainda não começãmos a codar
+fizemos um layout base para o site mas ainda não começamos a codar
