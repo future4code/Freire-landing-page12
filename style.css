@@ -1,4 +1,81 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: -Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.cabecalho-fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    display: block;
+    height: 73px;
+    border-bottom: 2px solid #FFBD59;
+    padding-top: 32px;
+    
+    
+}
+.conteudo-cabecalho img{
+    height: 3rem;
+}
+
+.conteudo-cabecalho{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu-principal{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 700px;
+}
+
+.menu-item{
+    margin: 0 50px;
+    /* position: relative; */
+}
+
+.menu-subitem{
+    list-style: none;
+    display: none;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 2px auto;
+    padding: 15px;
+    width: 100rem;
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+
+
+.menu-item:hover .menu-subitem {display: inline-block;}
+
+.item-link{
+    text-decoration: none;
+    color:yellow;
+
+}
+
+
+#abra-sua-conta{
+    border: 0;
+    border-radius: 20px;
+    height: 2rem;
+    width: 150px;
+    color:white;
+    background-color: orange;
+}
+#botao-login{
+    border: 0;
+    background-color: white;
+    color: orange;
+}
+
