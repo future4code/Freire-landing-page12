@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    bottom: 0vh;
+    display: flex;
+    align-items: inherit;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #ff914e;
+    width: 100vw;
+    height: 50vh;
+    padding: 0px;
+}
+
+.redes {
+    padding: 20px;
+}
+
+.redes p {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.redes a, img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+
+.store {
+    padding: 20px;
+}
+
+.store p {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.store a, img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+
+.ajuda {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+    height: 100%;
+    padding: 20px;
+}
+
+.ajuda a {
+    margin: 15px;
+    text-decoration: none;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1em;
+    color: #fff;
+}
+
+.alerta {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+    width: 200px;
+    height: 100%;
+    padding: 20px;
+}
+
+.alerta p {
+    position: absolute;
+    text-align: justify;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 0.8em;
+    color: #fff;
+}
+
+.telefones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+    font-size: 0.7em;
+    color: #fff;
+    font-family:'Signika Negative', sans-serif;
+    padding: 20px;
+}
+
+.telefones a {
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+}
+
+.telefones a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    bottom: 0;
+    background-color: #fff;
+    width: 100vw;
+    height: 10vh;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+    font-size: 0.8em;
+    margin-right: 20px;
+    bottom: 20px;
+    font-family: 'Signika Negative', sans-serif;
+    transition: .3s;
+    
+}
+
+
+footer a:hover {
+    color: black;
+}
+
+.copy {
+    position: absolute;
+    align-items: center;
+    bottom: 1px;
+    font-size: 0.6em;
+    color: rgb(105, 105, 105);
+    font-family: 'Signika Negative', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+    section {
+        position: relative;
+        bottom: 0vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #ff914e;
+        width: 100vw;
+        height: auto;
+        padding: 0px;
+    }
+    
+    .redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .redes p {
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 1em;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    
+    .redes a, img{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 5px;
+    }
+    
+    .store {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .store p {
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 1em;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    
+    .store a, img{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 5px;
+    }
+    
+    .ajuda {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0;
+        height: 100%;
+        padding: 20px;
+    }
+    
+    .ajuda a {
+        margin: 15px;
+        text-decoration: none;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 1em;
+        color: #fff;
+    }
+    
+    .alerta {
+        display: flex;
+        position: relative;
+        align-items: center;
+        flex-direction: column;
+        width: 90vw;
+        height: 100%;
+        padding: 20px;
+    }
+    
+    .alerta p {
+        position: relative;
+        text-align: justify;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 0.8em;
+        color: #fff;
+    }
+    
+    .telefones {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 200px;
+        height: 100%;
+        font-size: 0.7em;
+        color: #fff;
+        font-family:'Signika Negative', sans-serif;
+        padding: 20px;
+    }
+    
+    .telefones a {
+        text-decoration: none;
+        color: #fff;
+        transition: .3s;
+    }
+    
+    .telefones a:hover {
+        text-decoration: underline;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        flex-direction: row;
+        bottom: 0;
+        background-color: #fff;
+        width: 100vw;
+        height: 10vh;
+        align-items: baseline;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: rgb(114, 114, 114);
+        font-size: 1em;
+        bottom: 20px;
+        font-family: 'Signika Negative', sans-serif;
+        transition: .3s;
+        
+    }
+    
+    
+    footer a:hover {
+        color: black;
+    }
+    
+    .copy {
+        position: relative;
+        align-items: center;
+        bottom: 1px;
+        font-size: 1em;
+        color: rgb(105, 105, 105);
+        font-family: 'Signika Negative', sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
