@@ -10,47 +10,55 @@
 </head>
 
 <body>
-    <header class="cabecalho-fixo">
-        <div class="conteudo-cabecalho">
-            <img src="./img/logo-header.png" alt="logo f4bank laranja">
-            <nav>
-                <ul class="menu-principal">
-                    <li class="menu-item">O F4Bank
-                        <ul class="menu-subitem">
-                            <a href="#" class="item-link"><li>Sobre nós</li></a>
-                            <a href="#" class="item-link"><li>Institucional</li></a>
-                            <a href="#" class="item-link"><li>Sala de imprensa</li></a>
-                        </ul>
-                    </li>
-                    <li class="menu-item">Nossos Produtos
-                        <ul class="menu-subitem">
-                            <a href="#" class="item-link"><li>Conta F4</li></a>
-                            <a href="#" class="item-link"><li>Cartão de crédito</li></a>
-                            <a href="#" class="item-link"><li>F4 Investimentos</li></a>
-                            <a href="#" class="item-link"><li>Seguros</li></a>
-                        </ul>
-                    </li>
-                    <li class="menu-item">Blog
-                        <ul class="menu-subitem">
-                            <a href="#" class="item-link"><li>Comunidade</li></a>
-                            <a href="#" class="item-link"><li>Educação Financeira</li></a>
-                        </ul>
-                    </li >
-                    <li class="menu-item">Ajuda
-                        <ul class="menu-subitem">
-                            <a href="#" class="item-link"><li>Perguntas Frequentes</li></a>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-
-            <button id="abra-sua-conta"> Abra sua conta</button>
+    <header>
+        <img src="./img/f4bank-logo.png" alt="logo f4bank">
+        <div><button id="abra-sua-conta"><a href="abra-sua-conta.html"></a> Abra sua conta</button>
             <button id="botao-login">Login</button>
-
         </div>
 
-
     </header>
+
+
+    <input type="checkbox" id="bt-menu">
+    <label for="bt-menu">&#9776;</label>
+
+
+
+    <nav class="menu">
+        <ul>
+            <li> <a href="#">O F4Bank</a>
+                <ul>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Institucional</a></li>
+                    <li><a href="#">Sala de imprensa</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Nossos Produtos</a>
+                <ul>
+                    <li><a href="#">Conta F4</a></li>
+                    <li><a href="#">Cartão de crédito</a></li>
+                    <li><a href="#">F4 Investimentos</a></li>
+                    <li><a href="#">Seguros</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Blog</a>
+                <ul>
+                    <li><a href="#">Comunidade</a></li>
+                    <li><a href="#">Educação Financeira</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Ajuda</a>
+                <ul>
+                    <li><a href="#">Perguntas Frequentes</a></li>
+                </ul>
+            </li>
+            <li class="menu-mobile"><a href="#">Abra sua conta</a></li>
+            <li class="menu-mobile"><a href="#">Login</a></li>
+        </ul>
+    </nav>
+    
+
+
 
 </body>
 

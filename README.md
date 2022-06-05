@@ -1,2 +1,2 @@
 # landing-page-template
-fizemos um layout base para o site mas ainda não começamos a codar
+Fizemos um menu mais simples porem funcionando bem tanto para desktop e mobile
