@@ -15,6 +15,7 @@
     height: auto;
     margin-top: 0px;
     bottom: 0;
+    z-index: -1;
 }
 
 .banner img {
@@ -100,3 +101,4 @@
         color: #fff;
     }    
 }
+
