@@ -60,7 +60,15 @@ input[type=submit]:active{
 
 }
 
-@media (max-heigth: 800px) {
+@media (max-width: 800px ) {
+
+    form {
+        float: none;
+    }
+
+    .formulario-cadastro-login{
+        margin: 10px auto;
+    }
 
         
 }

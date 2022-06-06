@@ -1,33 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style-banner.css">
-    <link rel="stylesheet" href="style-footer.css">
     <link rel="stylesheet" href="style-menu.css">
-    <link rel="stylesheet" href="style-sessao.css">
-    <title>Banco</title>
+    <link rel="stylesheet" href="style-form.css">
+    <link rel="stylesheet" href="style-footer.css">
+    <title>F4Bank</title>
 </head>
 
 <body>
     <header>
         <a href="/projeto-f4bank/index.html"><img src="./img/f4bank-logo.png" alt="logo f4bank"></a>
-        <div>
-            <button id="abra-sua-conta"><a href="/projeto-f4bank/abra-sua-conta.html" target="_blank">Abra sua conta</a> </button>
+        <div><button id="abra-sua-conta"><a href="/projeto-f4bank/abra-sua-conta.html" target="_blank">Abra sua conta</a> </button>
             <button id="botao-login">Login</button>
         </div>
 
     </header>
 
-
     <input type="checkbox" id="bt-menu">
     <label for="bt-menu">&#9776;</label>
-
-
-
     <nav class="menu">
         <ul>
             <li> <a href="#">O F4Bank</a></li>
@@ -39,51 +33,40 @@
         </ul>
     </nav>
 
-    <!-------------------------------------------- BANNER ------------------------------------------------>
+    <main>
+        <form class="formulario-cadastro-login">
+            <p> Faça seu cadastro</p>
 
-    <div class="banner">
-        <img src="./img/banner_img.png" alt="banner imagem">
-        <p class="text_left">Shopping nacional<br>
-            e internacional,<br>
-            crédito para pessoa física,
-            seguros, financiamentos<br>
-            e muito mais
-        </p>
-        <p class="text_right">Venha para o banco<br>
-            pensado para você!</p>
-    </div>
+            <div class="dado">
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+            </div>
+
+            <div class="dado">
+                <label for="telefone">Seu Telefone:</label>
+                <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+            </div>
+
+            <div class="dado">
+                <label for="email">Seu E-Mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+            </div>
+            <input type="submit" name="enviar" value="Enviar">
+        </form>
+
+        <form class="formulario-cadastro-login">
+            <p> Login</p>
+
+            <div class="dado">
+                <label for="email">Seu E-Mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+            </div>
+
+            <input type="submit" name="login" value="Login">
+        </form>
 
 
-    <!-------------------------------------------- SESSÕES --------------------------------------------->
-
-    <div class="sessao1">
-        <div class="texto_sessao1">
-            <h2>Lançamento</h2>
-            <p>Seja um dos primeiros a saber tudo<br>
-                sobre nosso novo cartão físico<br>
-            </p>
-            <a class="sessao1_botao" href="#"><button>Saiba mais</button></a>
-        </div>
-        <div class="sessao_img1">
-            <img src="./img/imagem_secao1.png" alt="imagem">
-        </div>
-    </div>
-    <div class="sessao2">
-        <img src="./img/imagem_secao5.png" alt="imagem">
-        <a class="sessao2_botao" href="#"><button>Saiba mais</button></a>
-    </div>
-    <div class="sessao3">
-        <div class="img_sessao3">
-            <img src="./img/imagem_sessao7.png" alt="imagem">
-        </div>
-        <div class="texto_sessao3">
-            <h2>Seu futuro</h2>
-            <p>Crédito pessoal com as menores taxas e prazos exclusivos pensados especialmente para você</p>
-            <a class="sessao3_botao" href="#"><button>Saiba mais</button></a>
-        </div>
-    </div>
-    
-    <!------------------------------------------- RODAPE FOOTER ----------------------------------------->
+    </main>
 
     <section>
         <div class="redes">
@@ -168,5 +151,7 @@
             Copyright &copy; 2022 Banco F4Bank
         </div>
     </footer>
+
 </body>
+
 </html>
