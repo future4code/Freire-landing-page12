@@ -94,14 +94,29 @@ header a:hover{
     color: white;
 }
 
+.menu ul ul{
+    position: absolute;
+    visibility: hidden;
+}
 
+.menu ul li:hover ul{
+    visibility: visible;
+}
 
 .menu a:hover{
     background-color: #ff914d;
     text-decoration: underline;
 }
 
+.menu ul ul li{
+    float: none;
+    border-bottom: 1px solid white;
+}
 
+.menu ul ul li a{
+    background-color: #f9b083;
+   
+}
 .menu-mobile{
     visibility: hidden;
 }
@@ -152,6 +167,7 @@ label[for="bt-menu"] {
     .menu{
         margin-left: -100%;
         transition: all .4s;
+        margin-bottom: -40.5%;
     }
 
     .menu ul li{
@@ -159,7 +175,17 @@ label[for="bt-menu"] {
         float: none;
     }
 
-    
+    .menu ul ul{
+        position: static;
+        overflow: hidden;
+        max-height: 0;
+        transition: all 0.4s;
+    }
+
+    .menu ul li:hover ul{
+        height: auto;
+        max-height: 250px;
+    }
 
     
     
